@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Linq;
+﻿using System.Configuration;
 using System.Text;
-using System.Threading.Tasks;
 
 public class Utilities
 {
@@ -25,7 +21,7 @@ public class Utilities
         var stringBuilder = new StringBuilder();
 
         stringBuilder.AppendLine("Date: " + DateTime.Now.ToString("g"));
-        stringBuilder.AppendLine("Method: " + method;
+        stringBuilder.AppendLine("Method: " + method);
         stringBuilder.AppendLine("Error Message: " + errorMsg);
         stringBuilder.AppendLine("*************************************************************************");
 

@@ -8,4 +8,6 @@ List<string> thisWeekImages = Crawler.GetImageList(domain, thisWeek);
 List<string> nextWeekImages = Crawler.GetImageList(domain, nextWeek);
 List<string> starsOfTheWeekImages = Crawler.GetImageList(domain, starsOfTheWeek);
 
+Json.JsonCreate(thisWeekImages, nextWeekImages, starsOfTheWeekImages);
+
 Console.ReadKey();
